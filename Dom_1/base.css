@@ -1,0 +1,16 @@
+
+.head{
+    color: black;
+}
+p{
+    color: rgb(255, 0, 0);
+    font-weight: 200px;
+    font-size: large;
+}
+.sec{
+    color: rgb(4, 0, 255);
+}
+button {
+    background-color: rgb(0, 255, 64);
+    color: rgb(221, 0, 0);
+}
