@@ -12,7 +12,16 @@ user.welcomemessage()
 user.username = "vikas "
 user.welcomemessage()
 
+// so here our this will show the empty curly braces that means our current this is empty
+
 console.log(this);
+
+
+function chai(){
+    let username = "username"
+console.log (this.username) ;
+}
+chai()
 
 
 
