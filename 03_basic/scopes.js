@@ -57,8 +57,7 @@ if (true) {
      }
 }
 
-// ***************************************** intresting file ***************************************************
-
+// interting fiek
 
 console.log(addone(5))   // so in the funtion it will print the value of the function because it is allow in the function
 function addone(num){
