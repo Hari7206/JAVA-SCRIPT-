@@ -38,6 +38,6 @@ console.log(addtwo(3,4));
 
 // so we dont have to use the return when we give the parenthsis and we use the curly braces we have to write the return
 
-const adthree = (num1 , num2) => {username: "hari"}
+const adthree = (num1 , num2) => ({username: "hari"})
 console.log(adthree());
 
