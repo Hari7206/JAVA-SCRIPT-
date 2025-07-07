@@ -17,9 +17,17 @@ user.welcomemessage()
 console.log(this);
 
 
-function chai(){
-    let username = "username"
-console.log (this.username) ;
+// function chai(){
+//     let username = "username"
+// console.log (this.username) ;
+// // so we can see here that our function does not used this in the function
+
+// }
+// chai()
+
+const chai =  ()  => {
+let username = "hitesh"
+console.log(this) ;
 }
 chai()
 
