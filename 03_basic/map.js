@@ -13,3 +13,6 @@ console.log(ymnum);
 // so this is called the chaining  where we add the multiple 1s 
 const chain = mynum.map((num) => num * 10).map((num) => num +1).filter((num) => num > 31)
 console.log(chain);
+
+
+// now we will learn about the reduce so here we have accumelilator and current value whree accumeliator is intial valeu and the current value is the value in which we are assigin the rudece keyword its like the for loop but its is an reduce keyword usees
