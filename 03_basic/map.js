@@ -16,3 +16,9 @@ console.log(chain);
 
 
 // now we will learn about the reduce so here we have accumelilator and current value whree accumeliator is intial valeu and the current value is the value in which we are assigin the rudece keyword its like the for loop but its is an reduce keyword usees
+
+let myval = [1 , 2  , 3  , 4 ]
+let myinitalval = 0;
+let finalresult = myval.reduce((accumeliator , currentValue) => accumeliator + currentValue , myinitalval )
+
+console.log(`the final value is ${finalresult}`);
