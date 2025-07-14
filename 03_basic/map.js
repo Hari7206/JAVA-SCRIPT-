@@ -19,6 +19,5 @@ console.log(chain);
 
 let myval = [1 , 2  , 3  , 4 ]
 let myinitalval = 0;
-let finalresult = myval.reduce((accumeliator , currentValue) => accumeliator + currentValue , myinitalval )
 
 console.log(`the final value is ${finalresult}`);
