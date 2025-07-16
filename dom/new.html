@@ -15,10 +15,16 @@
     <script  >
 // this is how we can gett the elements 
    const value =  document.querySelector('.parent')
-        console.log(value);
-        console.log(value.children[1]);
+        // console.log(value);
+        // console.log(value.children);
+        // console.log(value.children[1].innerText);
         
+        for (let i= 0; i < value.children.length; i++) {
+           console.log(value.children[i].innerHTML);        
+        }
         
+        value.children[1].style.color = 'red'
+        // so by the first element child we will get the full element in the first 
         
     </script>
 </body>
