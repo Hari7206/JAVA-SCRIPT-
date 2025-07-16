@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hari with code</title>
+</head>
+<body style="background-color: aqua;">
+    
+
+    <script>
+        // making new element by ourself 
+        let div = document.createElement('div')
+        console.log(div);
+        // this is how we can set the class id or anything by the kaca script 
+        div.className = "sectionD"
+        div.id = Math.random() * 10 + 1
+        // div.innerText = "hari with code"
+        div.style.backgroundColor = "green"
+
+        // or we can write the this for the inner text with the manual thing of 2 line like
+       const code =  document.createTextNode("hari codings") 
+       div.appendChild(code)
+        
+    </script>
+</body>
+</html>
