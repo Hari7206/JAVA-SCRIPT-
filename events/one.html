@@ -26,19 +26,24 @@
     <script>
         // so here new we learn is onevent thing by the e 
         document.getElementById('photos').onclick = function(e) {
-          console.log("clicked insdie the eyezs ");
+          console.log("clicked insdie the images ");
           alert("pic clicked ")
         }
-           document.getElementById('eyes').onclick = function(e) {
-          console.log("clicked insdie the ul ");
-          alert("eyes clicked ") }
+        //    document.getElementById('eyes').onclick = function(e) {
+        //   console.log("clicked insdie the ul ");
+        //   alert("eyes clicked ") }
           // so here we have to study about the type , timestamp , defaultPrevented type, timestamp, defaul tPrevented
 // target, toEtement, srcEtement, currentTarget,
 // tientX, clientY, screenX, screenY
 // 1
 // aItkey, ctrlkey , keycode 
           
-        
+        document.getElementById('eyes').addEventListener('click' , function (e) {
+            console.log("clicked insdie the ul ");
+            console.error('eyes');
+            e.stopPropagation()
+            
+        },true)
         // document.getElementById('eyes').addEventListener('click' , function(){
         //     alert('eyes clicked ')
         // }, false)
