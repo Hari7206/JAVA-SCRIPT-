@@ -24,15 +24,28 @@
 
     </ul>
     <script>
-        document.getElementById('phanks').onclick = function() {
-            alert("phanks clicked")
+        // so here new we learn is onevent thing by the e 
+        document.getElementById('photos').onclick = function(e) {
+          console.log("clicked insdie the eyezs ");
+          alert("pic clicked ")
         }
-        document.getElementById('eyes').addEventListener('click' , function(){
-            alert('eyes clicked ')
-        }, false)
+           document.getElementById('eyes').onclick = function(e) {
+          console.log("clicked insdie the ul ");
+          alert("eyes clicked ") }
+          // so here we have to study about the type , timestamp , defaultPrevented type, timestamp, defaul tPrevented
+// target, toEtement, srcEtement, currentTarget,
+// tientX, clientY, screenX, screenY
+// 1
+// aItkey, ctrlkey , keycode 
+          
+        
+        // document.getElementById('eyes').addEventListener('click' , function(){
+        //     alert('eyes clicked ')
+        // }, false)
         // why we write here false and its because of default value 
 
         // attachEvent also have we cause for the same as the click eveent 
+
     </script>
 </body>
 </html>
