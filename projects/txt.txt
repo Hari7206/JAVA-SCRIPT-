@@ -1,1 +1,4 @@
 here we see the settimeout and the cleartimeout
+so we can stop the setinterverl with the help of the clearinterval
+https://api.github.com/users/hari7206 this is how we can get any api 
+we can read the api in the json formatter 
