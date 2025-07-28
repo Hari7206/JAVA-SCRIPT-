@@ -3,7 +3,7 @@
 // const promiseOne =  new Promise((resolve , reject) => {
 // so we have the call back in the promise and we have resolve and the reject in the promise 
 
-// so we have the .then function which run with the reolve conection  and we use the .catchs for the error and then we will use the finally keyword for the  confirm that is that things is done or not so we will try the async and await with the help of try and catch value 
+// so we have the .then function which run with the reolve conection  and we use the .catchss for the error and then we will use the finally keyword for the  confirm that is that things is done or not so we will try the async and await with the help of try and catch value 
 // });
 
 
