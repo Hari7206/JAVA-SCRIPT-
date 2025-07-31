@@ -8,7 +8,7 @@ so we have the .then function which run with the reolve conection  and we use th
 
 so in the lexical function we got to know that innter funciton can avainlable for the innter function like we have nested function so the innter function can get the data of the outer function so this is closure also 
 
-so lets see the deep closure also so heer in the closure we seen when we return anyone value we got the stuff like lexcal which pass the whole function not only single code it passes the whole code 
+so lets see the deep closure also so heer in the closure we seen when we return anyone value we got the stuff like lexcal which pass the whole function not only single code it passes the whole codes
 });
 */ 
 
