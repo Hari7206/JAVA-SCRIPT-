@@ -1,0 +1,39 @@
+# 1. Dependency Directory (CRITICAL)
+###################################
+# Always ignore the installed dependencies folder
+node_modules/
+
+# If you have specific, nested node_modules (as you mentioned earlier):
+# node/basic/node_modules/
+
+# 2. Package Lock Files
+#######################
+# npm creates this for debugging and stability. It's often ignored if you
+# only use 'package.json', but if you want consistent installs across teams,
+# you should track it. If you choose to ignore it, uncomment the line below.
+# package-lock.json
+
+# 3. Log Files and Debugging
+############################
+# Common NPM log files
+npm-debug.log*
+.npm/
+.eslintcache
+
+# Yarn v2+ log file
+.yarn/cache
+
+# 4. Build Output and Temporary Folders
+#######################################
+# Build output folders (where compiled code goes)
+/dist
+/build
+/out
+/coverage
+
+# Temporary files created by your OS or editor
+.DS_Store # macOS
+Thumbs.db # Windows
+*.log
+*.tmp
+*.bak
