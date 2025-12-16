@@ -1,7 +1,7 @@
 import express from "express";
 const app = express()
 const port = 3000
-
+app.use(express.static('public'))
 
 // so this is post req we post 
 app.get('/', (req, res) => {
@@ -21,6 +21,9 @@ app.get('/login', (req, res) => {
 })
 app.get('/Blog', (req, res) => {
   res.send('here you can post your blog')
+})
+app.get('/Blog/:slug', (req, res) => {
+  res.send(`here you can post your blog ${req.params.slug}`)
 })
 //  so this all up in the are quaries we are posing our rewq but we don't do it like this other wise it did not lokking so much good that why we use the express js it make the work easy for us and make the code more easy to read 
 app.listen(port, () => {
