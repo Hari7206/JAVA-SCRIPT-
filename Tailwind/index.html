@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind Learning Example</title>
+</head>
+
+<body class="bg-gray-100 p-6">
+    <!-- Heading -->
+    <h1 class="text-3xl font-bold underline text-center mb-8">
+        Hello World!
+    </h1>
+
+    <!-- Navigation Bar -->
+    <nav class="bg-purple-700 text-white p-4 rounded">
+        <!-- Flex container for menu items -->
+        <ul class="flex gap-6 justify-center">
+            <!-- Each item with optional margin -->
+            <li class="hover:text-gray-300 cursor-pointer">Home</li>
+            <li class="hover:text-gray-300 cursor-pointer">About</li>
+            <li class="hover:text-gray-300 cursor-pointer">Contact</li>
+        </ul>
+    </nav>
+
+    <!-- Example of Flex + Margin Right usage -->
+    <section class="mt-8 p-4 bg-white rounded shadow">
+        <h2 class="text-xl font-semibold mb-4">Flexbox Example</h2>
+        <div class="flex items-center justify-between">
+            <!-- Box 1 -->
+            <div class="bg-blue-500 text-white p-4 rounded mr-4">
+                Box 1 (mr-4)
+            </div>
+            <!-- Box 2 -->
+            <div class="bg-green-500 text-white p-4 rounded">
+                Box 2
+            </div>
+        </div>
+        <!-- Comments: 
+             - `flex` makes container flexbox
+             - `items-center` aligns vertically
+             - `justify-between` pushes items to edges
+             - `mr-4` adds margin-right to Box 1
+        -->
+    </section>
+</body>
+
+</html>
