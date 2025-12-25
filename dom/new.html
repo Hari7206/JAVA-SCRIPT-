@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom with thapa</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thursday</div>
+    </div>
+    <script  >
+// this is how we can gett the elements 
+   const value =  document.querySelector('.parent')
+        // console.log(value);
+        // console.log(value.children);
+        // console.log(value.children[1].innerText);
+        
+        for (let i= 0; i < value.children.length; i++) {
+           console.log(value.children[i].innerHTML);        
+        }
+        
+        value.children[1].style.color = 'red'
+        // so by the first element child we will get the full element in the first 
+        /*
+        so we have parenelement and the nextsiblingelement also 
+        parent.childnodes also it tell us the tree structure which all the tag and thing we have here  
+        */
+        
+    </script>
+</body>
+</html>

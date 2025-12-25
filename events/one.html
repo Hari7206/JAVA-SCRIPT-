@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html events </title>
+</head>
+
+<body style="background-color: rgb(15, 115, 202) ">
+    <h2 style="background-color: aliceblue " >
+        Amazing Images
+    </h2>
+    <ul id="photos">
+        <li id="newid"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
+                  id="phanks" ></li>
+        <li> <img
+                src="https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE="
+                id="eyes" style="background-size: contain"></li>
+                <li>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykzoZeCE0p7LeuyHnLYCdPP2jju9d5PaMeA&s" id="sitting man">
+                </li>
+
+    </ul>
+    <script>
+        // so here new we learn is onevent thing by the e 
+        document.getElementById('photos').onclick = function(e) {
+          console.log("clicked insdie the images ");
+          alert("pic clicked ")
+        }
+        //    document.getElementById('eyes').onclick = function(e) {
+        //   console.log("clicked insdie the ul ");
+        //   alert("eyes clicked ") }
+          // so here we have to study about the type , timestamp , defaultPrevented type, timestamp, defaul tPrevented
+// target, toEtement, srcEtement, currentTarget,
+// tientX, clientY, screenX, screenY
+// 1
+// aItkey, ctrlkey , keycode 
+          
+        document.getElementById('eyes').addEventListener('click' , function (e) {
+            console.log("clicked insdie the ul ");
+            console.error('eyes');
+            e.stopPropagation()
+            
+        },true)
+        // document.getElementById('eyes').addEventListener('click' , function(){
+        //     alert('eyes clicked ')
+        // }, false)
+        // why we write here false and its because of default value 
+
+        // attachEvent also have we cause for the same as the click eveent 
+
+    </script>
+</body>
+</html>
