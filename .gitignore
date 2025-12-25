@@ -30,7 +30,12 @@ npm-debug.log*
 /build
 /out
 /coverage
-XClone/
+node_modules/
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> 624281d59eaec843ec084c4ea6e2f6ef9c1d8c93
 # Temporary files created by your OS or editor
 .DS_Store # macOS
 Thumbs.db # Windows
